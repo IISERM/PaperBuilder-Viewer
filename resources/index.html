@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>NeutralinoJs</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="neutralinoapp">
+    <div class="navbar">
+      <button class="navbutton">New Project</button>
+      <button class="navbutton">Load Project</button>
+      <button class="navbutton" onclick="window.myApp.updateView()">Refresh</button>
+      <button class="navbutton">Compile</button>
+    </div>
+    <div class="mainarea">
+      <div class="editorarea">
+        <textarea id="editor" class="editor"></textarea>
+      </div>
+      <div class="resizer" id="dragMe"></div>
+      <div class="editorarea">
+        <iframe id="viewer" class="viewer" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+  <script src="js/neutralino.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/resizer.js"></script>
+</body>
+
+</html>

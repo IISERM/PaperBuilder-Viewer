@@ -1,0 +1,75 @@
+body{
+    background-color: #282828;
+    margin: 0%;
+    color: aliceblue;
+    height: 99vh;
+}
+
+#neutralinoapp {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: solid 1px blue;
+    font-size: 40px;
+    height: 100%;
+}
+
+#neutralinoapp h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.navbar {
+    display: flex;
+    border-bottom: solid 1px white;
+}
+
+.navbutton {
+    flex-grow: 1;
+    flex-basis: 0;
+    margin: 10px;
+    border: solid 2px aliceblue;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.15);
+    font-size: 18px;
+    color: inherit;
+}
+
+.navbutton:hover{
+    background-color: salmon;
+}
+
+.mainarea {
+    display: flex;
+    background-color: rgb(170, 202, 230);
+    flex-grow: 1;
+}
+
+.editorarea{
+    flex-grow: 1;
+    flex-basis: 0;
+    margin: 1px;
+    background: #282828;
+    display: flex;
+}
+
+.editor{
+    margin: 8px;
+    border: none;
+    display: block;
+    background-color: transparent;
+    color: #f0f0f0;
+    font-size: 18px;
+    font-family: monospace;
+    flex-grow: 1;
+    resize: none;
+}
+
+.viewer{
+    flex-grow: 1;
+}
+
+.resizer{
+    padding: 2px;
+    cursor: col-resize;
+}

@@ -1,0 +1,10 @@
+html {
+    background-color: transparent;
+}
+body {
+    color: aliceblue;
+}
+p {
+    margin: 14px;
+    text-align: justify;
+}
